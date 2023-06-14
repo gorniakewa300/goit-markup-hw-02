@@ -2,6 +2,10 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: #212121;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 :root {
   --brand-color: #2196f3;
   --white: #ffffff;
@@ -124,7 +128,6 @@ ul {
   letter-spacing: 0.03em;
 }
 .person-name {
-  width: 72px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -134,7 +137,6 @@ ul {
   text-align: center;
 }
 .person-speciality {
-  width: 87px;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
@@ -168,14 +170,14 @@ ul {
   color: var(--white);
 }
 .link-footer-contact {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: var(--white-grey);
-    color: rgba(255, 255, 255, 0.6);
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-grey);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .button {
